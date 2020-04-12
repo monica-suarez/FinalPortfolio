@@ -1,9 +1,46 @@
-body{
-    background-image: url("iL0ysfy-dali-wallpapers.jpg");
+.container{
+    background-image: url("./iL0ysfy-dali-wallpapers.jpg");
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
     z-index: 0;
 }
-.daliFace{
-    width: 20%;
-    height: 20%;
-    z-index: 1;
+.dali-face{
+height: auto;
+width: 30%;
+z-index: 1;
+position: absolute;
+}
+header{
+    height: 200px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote{
+    color: whitesmoke;
+    font-family: 'Homemade Apple', cursive;
+    width: 175px;
+    font-size: 24px;
+
+}
+#my-name{
+    margin-top: 50px;
+    color: whitesmoke;
+    font-size: 4rem;
+}
+.folio-btn{
+    line-height: 500px;
 }
