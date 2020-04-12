@@ -16,6 +16,26 @@ position: absolute;
 }
 header{
     height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 350px;
+}
+
+.header-button{
+    align-self: center;
+    color: white;
+    border: none; 
+    background-color: rgba(5, 6, 59, 0.836) ;
+    width: 10rem; 
+    height: 42px; 
+    font-size: 28px;
+    font-family: 'Gotu', sans-serif;
+    transition: background-color 1s ease-out 100ms; color: 1s ease-out 100ms;
+}
+.header-button:hover{
+    color:  rgba(0, 0, 0, 0.815);
+    background-color: rgba(245, 245, 245, 0.37);
 }
 .content{
     display: flex;
@@ -32,14 +52,32 @@ aside{
     align-items: center;
 }
 .quote{
-    color: rgb(250, 247, 57);
+    color: rgb(255, 255, 226);
     font-family: 'Homemade Apple', cursive;
     width: 175px;
     font-size: 32px;
+    margin-right: 20px;
+
+}
+#descr{        
+    color: rgb(241, 239, 86);
+    font-family: 'Gotu', sans-serif;
+    font-size: 3.5rem;
+    margin-top: 100px;
+    margin-left: 100px;
+    animation-name: colors;
+    animation-duration: 6s;
+}
+@keyframes colors{
+    0%{color: rgb(241, 239, 86);}
+    25%{color:  rgb(84, 163, 64);}
+    50%{color:  rgb(19, 39, 126);}
+    75%{color:  rgb(191, 154, 196);}
+    100%{color: rgb(241, 239, 86);}
 
 }
 #my-name{
-    margin-top: 300px;
+    margin-top: 100px;
     color: rgb(241, 239, 86);
     font-size: 7rem;
     font-weight: bold;
@@ -55,10 +93,10 @@ aside{
     font-size: 60px;
     font-family: 'Homemade Apple', cursive;
     border: none;
+    margin-top: 50px;
 }
 aside button:hover{
-    
-    transform: skewY(-25deg);
+    transform: scale(-1.5);
 }
 aside button:active{
     transition: all 0.3s ease-in;
