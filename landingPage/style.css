@@ -15,7 +15,7 @@ z-index: 1;
 position: absolute;
 }
 header{
-    height: 200px;
+    height: 250px;
 }
 .content{
     display: flex;
@@ -25,22 +25,43 @@ header{
     margin: 0 auto;
 }
 aside{
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
 }
 .quote{
-    color: whitesmoke;
+    color: rgb(250, 247, 57);
     font-family: 'Homemade Apple', cursive;
     width: 175px;
-    font-size: 24px;
+    font-size: 32px;
 
 }
 #my-name{
-    margin-top: 50px;
-    color: whitesmoke;
-    font-size: 4rem;
+    margin-top: 300px;
+    color: rgb(241, 239, 86);
+    font-size: 7rem;
+    font-weight: bold;
+    font-family: 'Gotu', sans-serif;
+    margin-bottom: 75px;
+    margin-right: 50px;
 }
-.folio-btn{
-    line-height: 500px;
+#folio-btn{
+    background-color: rgba(6, 34, 33, 0.815);
+    color: rgb(194, 61, 68);
+    width: 500px; 
+    height: 110px; 
+    font-size: 60px;
+    font-family: 'Homemade Apple', cursive;
+    border: none;
+}
+aside button:hover{
+    
+    transform: skewY(-25deg);
+}
+aside button:active{
+    transition: all 0.3s ease-in;
+    font-size: 84px;
+    color: rgb(255, 238, 0);
 }
