@@ -1,0 +1,9 @@
+body{
+    background-image: url("iL0ysfy-dali-wallpapers.jpg");
+    z-index: 0;
+}
+.daliFace{
+    width: 20%;
+    height: 20%;
+    z-index: 1;
+}
