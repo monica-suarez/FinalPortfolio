@@ -2,6 +2,12 @@
     background-color: rgba(75, 77, 199, 0.836);
     color: white;
 }
+.header-button{
+    text-decoration: none;
+}
+#folio-btn{
+    text-decoration: none;
+}
 @media(max-width: 650px){
 .container{
     background-color: rgb(158,7,39);
@@ -44,6 +50,12 @@ header{
     margin-top: 50px;
 }
 .header-button:hover{
+    color:  rgba(0, 0, 0, 0.815);
+    background-color: rgba(245, 245, 245, 0.37);
+}
+.header-button:active{
+    transition: all 0.3s ease-in;
+    font-size: 18px;
     color:  rgba(0, 0, 0, 0.815);
     background-color: rgba(245, 245, 245, 0.37);
 }
