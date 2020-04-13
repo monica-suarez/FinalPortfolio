@@ -55,9 +55,8 @@ header{
 }
 .header-button:active{
     transition: all 0.3s ease-in;
-    font-size: 18px;
-    color:  rgba(0, 0, 0, 0.815);
-    background-color: rgba(245, 245, 245, 0.37);
+    font-size: 24px;
+    color: yellow;
 }
 .content{
     display: flex;
