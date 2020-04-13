@@ -37,7 +37,7 @@
         height: 50px; 
         font-size: 12px;
         font-family: 'Gotu', sans-serif;
-        transition: background-color 1s ease-out 100ms; color: 1s ease-out 100ms;
+        transition: background-color 0.5s ease-out 50ms; color: 1s ease-out 100ms;
         margin-top: 50px;
         margin-left: 5px;
         margin-right: 5px;
