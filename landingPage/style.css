@@ -4,18 +4,19 @@
 }
 @media(max-width: 650px){
     .container{
-        background-image: url("./iL0ysfy-dali-wallpapers.jpg");
-        margin: auto;
+        background-color: rgb(158,7,39);
+        background-image: url("./dali-wallpaper-small.jpg");
+        margin: 0 auto;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: scroll;
+        background-attachment: fixed;
         width: 100%;
-        background-position: center;
+        background-position: center center;
         z-index: 0;
     }
     .dali-face{
     height: auto;
-    width: 10%;
+    width: 20%;
     z-index: 1;
     position: absolute;
     }
@@ -24,8 +25,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-left: 250px;
-        margin-right: 50px;
+
     }
     
     .header-button{
@@ -33,11 +33,14 @@
         color: white;
         border: none; 
         background-color: rgba(5, 6, 59, 0.836) ;
-        width: 7rem; 
-        height: 42px; 
-        font-size: 20px;
+        width: 5rem; 
+        height: 50px; 
+        font-size: 12px;
         font-family: 'Gotu', sans-serif;
         transition: background-color 1s ease-out 100ms; color: 1s ease-out 100ms;
+        margin-top: 50px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .header-button:hover{
         color:  rgba(0, 0, 0, 0.815);
@@ -45,13 +48,14 @@
     }
     .content{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         width: 100%;
         margin: 0 auto;
     }
     aside{
         margin-left: 20px;
+        margin-right: 20px;
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -60,19 +64,20 @@
     .quote{
         color: rgb(255, 255, 226);
         font-family: 'Homemade Apple', cursive;
-        width: 150px;
-        font-size: 24px;
-        margin-left: -15%;
+        width: 100%;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 30px;
     
     }
     #descr{        
         color: rgb(241, 239, 86);
         font-family: 'Gotu', sans-serif;
         font-size: 2.5rem;
-        margin-top: 40px;
-        margin-left: 10px;
+        margin-top: 10px;
         animation-name: colors;
         animation-duration: 6s;
+        text-align: center;
     }
     @keyframes colors{
         0%{color: rgb(241, 239, 86);}
@@ -85,21 +90,22 @@
     #my-name{
         margin-top: 75px;
         color: rgb(241, 239, 86);
-        font-size: 5rem;
+        font-size: 3rem;
         font-weight: bold;
         font-family: 'Gotu', sans-serif;
-        margin-bottom: 75px;
-        margin-right: 35px;
+        margin-bottom: 10px;
+        text-align: center;
     }
     #folio-btn{
         background-color: rgba(5, 6, 59, 0.836) ;
         color: rgb(194, 61, 68);
-        width: 500px; 
-        height: 110px; 
-        font-size: 60px;
+        width: 200px; 
+        height: 40px; 
+        font-size: 16px;
         font-family: 'Homemade Apple', cursive;
         border: none;
-        margin-top: 20px;
+        margin-top: 10px;
+        margin-bottom: 50px;
     }
     aside button:hover{
         transform: scale(-1.5);
@@ -115,15 +121,18 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        height: 100px;
+        height: 150px;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 12px;
     }
     .icon{
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
         height: 32px;
     }
 }
-@media(max-width: 1024px){
+@media(min-width: 650px){
     .container{
         background-image: url("./iL0ysfy-dali-wallpapers.jpg");
         margin: auto;
