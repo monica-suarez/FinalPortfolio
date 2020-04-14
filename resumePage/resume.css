@@ -4,6 +4,19 @@ body{
 }
 button{
     font-family: 'Gotu', sans-serif;
+    border: none;
+    background-color: whitesmoke;
+    color:  rgba(5, 6, 59, 0.836);
+    transition: background-color 0.5s ease-out 50ms; color: 1s ease-out 100ms;
+}
+button:hover{
+    color: rgba(255, 255, 255, 0.699);
+    background-color: rgba(5, 6, 59, 0.836);
+}
+button:active{
+    transition: all 0.3s ease-in;
+    font-size: 32px;
+    color: rgb(255, 255, 255);
 }
 header{
     background-color: rgba(5, 6, 59, 0.836);
@@ -17,7 +30,8 @@ header{
     border: none;
     color: rgba(5, 6, 59, 0.836);
     transition: background-color 0.5s ease-out 50ms; color: 1s ease-out 100ms;
-    text-align: center;
+    padding: 1%;
+    margin: 1%
 }
 .header-button:hover{
     color: rgba(255, 255, 255, 0.699);
@@ -39,6 +53,9 @@ main{
     color: rgba(5, 6, 59, 0.836);
     background-color: gold;
     display: none;
+}
+button{
+    font-size: 18px;  
 }
 .footer{
     background-color: rgba(75, 77, 199, 0.836);
@@ -98,7 +115,7 @@ header{
 }
 #art:hover{
     transition: ease-out 0.5s;
-    transform: translate(200px, 200px) scale(2.5);
+    transform: translate(400px, 375px) scale(2.75);
 }
 .header-col{
     width: 75%;
@@ -107,17 +124,14 @@ header{
 .nav-buttons{
     display: flex;
     flex-direction: row;
-    height: 50%;
+    height: 48%;
     justify-content: flex-end;
     align-items: flex-end;
 }
 .header-button{
     font-size: 0.85rem;
+    min-width: 4rem;
     text-align: center;
-    min-width: 3.75rem;
-    height: 1rem;
-    margin: 1%;
-    padding: 0.75%;
 }
 .header-banner{
     display: flex;
@@ -130,8 +144,13 @@ h1{
     font-size: 5rem;
 }
 #occupation{
-    padding-left: 50px;
-    font-size: 2rem;
+    padding-left: 2.5%;
+    font-size: 1.5rem;
+    margin-top: -0.5%;
+}
+main{
+    min-height: 550px;
+    max-height: 2000px;
 }
 .resume-entry{
     display: flex;
