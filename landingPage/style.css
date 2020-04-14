@@ -4,7 +4,7 @@
 }
 .header-button{
     text-decoration: none;
-    padding: 2%;
+    padding: 1%;
     align-self: center;
     text-align: center;
     color: white;
@@ -48,7 +48,7 @@ header{
 }
 
 .header-button{
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 50px;
 }
 .header-button:hover{
