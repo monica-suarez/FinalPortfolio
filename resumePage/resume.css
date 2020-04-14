@@ -30,7 +30,7 @@ header{
     border: none;
     color: rgba(5, 6, 59, 0.836);
     transition: background-color 0.5s ease-out 50ms; color: 1s ease-out 100ms;
-    padding: 1%;
+    padding: 0.5%;
     margin: 1%
 }
 .header-button:hover{
@@ -39,7 +39,7 @@ header{
 }
 .header-button:active{
     transition: all 0.3s ease-in;
-    font-size: 22px;
+    font-size: 1.5rem;
     color: rgb(255, 255, 255);
 }
 main{
@@ -93,7 +93,7 @@ header{
     width: auto;
     height: 65%;
     padding-top: 5%;
-    padding-left: 2%;
+    padding-left: 2.5%;
 }
 #art:hover{
     transition: ease-out 0.5s;
@@ -110,6 +110,8 @@ header{
     height: 50%;
     padding-right: 17.5%;
     margin-bottom: 1%;
+    margin-left: -65%;
+    width: 150%;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -125,7 +127,7 @@ header{
     width: 100%;
 }
 h1{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     margin-right: 30%;
     padding-top: 20px;
     text-align: center;
