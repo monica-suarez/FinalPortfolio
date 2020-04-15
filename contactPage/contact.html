@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../landingPage/reset.css">
     <link rel="stylesheet" href="contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
     <title>Contact Page</title>
 </head>
 <body>
@@ -21,13 +22,28 @@
         </header>
         <div class="content">
             <aside>
-
+                <div id="cont-info">Contact Information</div>
+                <div class="info" id="phone">Tel: +34 972 48 86 55</div><br>
+                <div class="info" id="email">Email: <a class="link" href="mail to: pubol@fundaciodali.org">pubol@fundaciodali.org</a></div><br>
+                <div class="info" id="website">Web: <a class="link" href="https://www.salvador-dali.org/">https://www.salvador-dali.org/</a></div><br>
+                <div class="info" id="address">Address: Gala Dali, s/n, 17120 Púbol, Girona, Spain</div><br><br>
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2964.332435190759!2d2.981056115445423!3d42.01460037921154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bafa5c1d34d507%3A0x39ea52670e0ab84b!2sCastell%20Gala%20Salvador%20Dal%C3%AD%20de%20P%C3%BAbol!5e0!3m2!1sen!2sus!4v1586966040113!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br>
+                <p class="info" id="visit-us">Please feel welcome to visit the castle, which is a museum dedicated to Salvador's wife, Gala. 
+                    For ticket prices, visiting hours, and more information, you may visit our website. Additional information
+                    about other nearby Dalí museums can also be found by visiting the website.</p>
             </aside>
             <main>
-
+                <div id="banner">Get In Touch</div>
+                <form class="form-boxes" action="contact.html" method="POST">
+                    <input class="box" type="name" name="name" id="name" placeholder="Name" required><br><br>
+                    <input class="box" type="email" name="email" id="email" placeholder="Email" required><br><br>
+                    <input class="box" type="phone-number" name="phone-number" id="phone-number"  placeholder="Phone  Number" required><br><br>
+                    <textarea rows="11" required="required" type="message" id="message" placeholder="Message To The Artist"></textarea>
+                    <button id="send-button" type="send">SEND</button>
+                </form>
             </main>
         </div>
-        <footer>
+        <footer class="footer">
             <div id="copyright">© 2020 by Salvador Dalí's Ghost. All rights reserved.</div>
         <div class="soc-icons">
             <a href=".https://www.facebook.com/SalvadorDaliPage/"><img class="icon" src="../landingPage/facebook-icon copy.png" alt="Facebook link"></a>
