@@ -175,7 +175,7 @@ h1{
 .content{
     display: flex;
     flex-direction: row;
-    height: 1000px;
+    height: 800px;
     margin-top: 5px;
 }
 .dali-portrait{
@@ -272,7 +272,7 @@ header{
 #about{
     font-size: 2rem;
     margin-left: 80px;
-    margin-bottom: -1%;
+    margin-bottom: -5%;
     margin-top: 50px;
 }
 h1{
