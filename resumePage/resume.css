@@ -62,21 +62,56 @@ button{
     color: white;
 }
 @media(max-width: 650px){
-.footer{
-    margin-top: 10px;
+header{
+    height: 300px;
+}
+    #art{
+    display:none;
+}
+.header-col{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 300px;
     align-items: center;
+}
+.header-banner{
+    height: 50%;
+}
+h1{
+    font-size: 3.25rem;
+    padding-top: 15%;
+}
+#occupation{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-    height: 150px;
-    padding-left: 2%;
-    padding-right: 2%;
-    font-size: 12px;
+    align-items: flex-end;
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+}
+.footer{
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+height: 150px;
+padding-left: 2%;
+padding-right: 2%;
+font-size: 12px;
 }
 .icon{
-    margin-right: 10px;
-    margin-left: 10px;
-    height: 32px;
+margin-right: 10px;
+margin-left: 10px;
+height: 32px;
 }
 }
 @media(min-width: 650px){
