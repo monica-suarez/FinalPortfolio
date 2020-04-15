@@ -133,7 +133,7 @@ main{
     height: 32px;
 }
 }
-@media(min-width: 650px){
+@media(min-width: 651px){
 header{
     height: 125px;
     display: flex;
