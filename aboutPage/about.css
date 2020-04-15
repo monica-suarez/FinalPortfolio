@@ -10,6 +10,8 @@ header{
     background-color: whitesmoke;
     border: none;
     color: rgba(5, 6, 59, 0.836);
+    padding: 0.5%;
+    margin: 1%;
     transition: background-color 0.5s ease-out 50ms; color: 1s ease-out 100ms;
 }
 .header-button:hover{
@@ -20,6 +22,9 @@ header{
     transition: all 0.3s ease-in;
     font-size: 22px;
     color: rgb(255, 255, 255);
+}
+.header-banner{
+    color: gold;
 }
 aside{
     background-color: #bd291a;
@@ -52,38 +57,36 @@ header{
     height: 300px;
     display: flex;
     flex-direction: column-reverse;
-    margin: 0 auto;
-    justify-content: center;
     align-items: center;
 }
 .nav-buttons{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-end;
     width: 90%;
+    height: 50%;
     margin-left: 5%;
     margin-right: 5%;
-}
+    margin-bottom: 20px;
+} 
 .header-button{
-    padding: 1%;
     font-size: 16px;
 }
 .header-banner{
     color: gold;
     width: 100%;
-    margin-top: -5%;
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-top: 8%;
 }
 .banner-text{
-   font-size: 2.5rem;  
+   font-size: 3rem;  
 }
 #about{
-    font-size: 24px;
+    font-size: 26px;
     text-decoration: underline;
-    
 }
 
 aside{
@@ -135,41 +138,39 @@ main{
 }
 @media(min-width: 651px){
 header{
-    height: 125px;
+    height: 350px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     margin: 0 auto;
 }
 .nav-buttons{
-    padding-top: 30px;
-    padding-left: 2%;
-    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 5%;
 }
 .header-button{
-    padding: 1%;
-    font-size: 14px;
-    margin-left: 1%;
+    font-size: 0.75rem;
+    min-width: 4rem;
+    text-align: center;
 }
 .header-banner{
-    color: gold;
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 40%;
+    justify-content: flex-start;
+    height: 80%;
 }
-.banner-text{
-    padding-right: 5%;
-    padding-left: 10%;
-}
+
 #about{
-    font-size: 16px;
-    margin-left: 15px;
-    margin-top: 30px;
+    margin-left: 20%;
+    font-size: 2rem;
+    margin-top: 1%;
 }
 h1{
-    font-size: 2rem;
-    margin-top: -10px;
+    font-size: 5rem;
+    text-align: center;
+    
 }
 .content{
     display: flex;
@@ -241,41 +242,43 @@ align-items: center;
 }
 @media(min-width: 1054px){
 header{
-    height: 150px;
+    height: 275px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     margin: 0 auto;
+    justify-content: space-around;
 }
 .nav-buttons{
-    padding-top: 65px;
-    padding-left: 3%;
-    width: 50%;
-}
-.header-button{
-    padding: 1%;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 0%;
+    margin-bottom: 1%;
 }
 .header-banner{
-    color: gold;
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 50%;
+    width: 100%;
+
 }
-.banner-text{
-    padding-left: 30%;
+.header-button{
+    font-size: 0.85rem;
+    min-width: 4rem;
+    text-align: center;
 }
+
+
 #about{
-    font-size: 24px;
-    margin-left: 15px;
-    margin-top: 30px;
+    font-size: 2rem;
+    margin-left: 80px;
+    margin-bottom: -1%;
+    margin-top: 50px;
 }
 h1{
-    font-size: 2.5rem;
-    margin-top: -10px;
+    font-size: 5rem;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 .content{
     display: flex;
