@@ -190,7 +190,7 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-bottom: 0.5%;
+    margin-bottom: 1.5%;
 }
 
 #header-text{
@@ -205,8 +205,8 @@ header{
     font-size: 0.85rem;
     min-width: 4rem;
     text-align: center;
-    padding: 1.5%;
-    margin: 2.5%;
+    padding: 1%;
+    margin: 1.5%;
 }
 .content{
 display: flex;
