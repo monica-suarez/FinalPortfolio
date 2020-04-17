@@ -6,7 +6,7 @@ button{
     font-family: 'Gotu', sans-serif;
     border: none;
     background-color: whitesmoke;
-    color:  rgba(5, 6, 59);
+    color:  rgba(5, 6, 59, 0.836);
     transition: background-color 0.5s ease-out 50ms; color: 1s ease-out 100ms;
 }
 button:hover{
@@ -19,7 +19,7 @@ button:active{
     color: rgb(255, 255, 255);
 }
 header{
-    background-color: rgba(5, 6, 59, 0.836);
+    background-color: rgba(5, 6, 59);
 }
 .header-banner{
     color: gold;
@@ -144,15 +144,11 @@ header{
 .header-col{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    justify-content: space-between;
 }
 .nav-buttons{
     display: flex;
     flex-direction: row;
-    height: 50%;
-    padding-right: 17.5%;
-    margin-left: -65%;
-    width: 150%;
     justify-content: flex-end;
     align-items: flex-end;
 }
@@ -160,6 +156,8 @@ header{
     font-size: 0.75rem;
     min-width: 4rem;
     text-align: center;
+    padding: 1%;
+    margin: 1.5%;
 }
 .header-banner{
     display: flex;
@@ -235,7 +233,32 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+}
+.head-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.nav-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 1.5%;
+}
+
+#header-text{
+    display: flex;
+    flex-direction: row; 
+    text-align: center;
+    font-size: 4.5rem;
+    margin-top: 7.5%;
+    margin-left: -10%;
+}
+.header-button{
+    font-size: 0.85rem;
+    min-width: 4rem;
+    text-align: center;
 }
 #art{
     width: auto;
@@ -245,32 +268,6 @@ header{
 #art:hover{
     transition: ease-out 0.5s;
     transform: translate(450px, 400px) scale(2.5);
-}
-.header-col{
-    width: 75%;
-    height: 100%;
-}
-.nav-buttons{
-    display: flex;
-    flex-direction: row;
-    height: 48%;
-    width: 165%;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-right: 0%;
-    padding-right: 0%;
-}
-.header-button{
-    font-size: 0.85rem;
-    min-width: 4rem;
-    text-align: center;
-}
-.header-banner{
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    z-index: 1;
-    padding-left: 5%;
 }
 h1{
     padding-top: 5%;

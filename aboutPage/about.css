@@ -67,8 +67,8 @@ header{
     width: 90%;
     height: 50%;
     margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 20px;
+    margin-right: 1%;
+    margin-bottom: 1.5%;
 } 
 .header-button{
     font-size: 16px;
@@ -148,12 +148,13 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-right: 5%;
+    margin-bottom: 1%;
 }
 .header-button{
     font-size: 0.75rem;
     min-width: 4rem;
     text-align: center;
+    margin: 0.75%;
 }
 .header-banner{
     display: flex;
@@ -253,8 +254,7 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-right: 0%;
-    margin-bottom: 1%;
+    margin-bottom: 0.75%;
 }
 .header-banner{
     display: flex;
