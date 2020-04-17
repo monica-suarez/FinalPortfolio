@@ -148,7 +148,8 @@ header{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-bottom: 1%;
+    margin-bottom: 0.5%;
+    margin-right: 5%;
 }
 .header-button{
     font-size: 0.75rem;

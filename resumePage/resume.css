@@ -39,8 +39,10 @@ header{
 }
 .header-button:active{
     transition: all 0.3s ease-in;
-    font-size: 1.5rem;
+    font-size: 22px;
     color: rgb(255, 255, 255);
+    padding: 0.5%;
+    margin: 1%;
 }
 main{
     border: 5px solid #bd291a;
@@ -141,10 +143,23 @@ header{
     transition: ease-out 0.5s;
     transform: translate(40%, 25%) scale(2);
 }
-.header-col{
+.header-banner{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    margin-right: 3%;
+    margin-left: -20%;
+    padding-top: 10%;
+}
+h1{
+    font-size: 3.5rem;
+    text-align: center;
+}
+#occupation{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -0.5%;
 }
 .nav-buttons{
     display: flex;
@@ -152,31 +167,19 @@ header{
     justify-content: flex-end;
     align-items: flex-end;
     margin-bottom: 1.25%;
+    width: 150%;
+    margin-left: -65%;
+}
+.header-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .header-button{
     font-size: 0.75rem;
     min-width: 4rem;
     text-align: center;
-    padding: 1%;
-    margin: 1.5%;
-}
-.header-banner{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-h1{
-    font-size: 3.3rem;
-    margin-right: 30%;
-    padding-top: 20px;
-    text-align: center;
-}
-#occupation{
-    text-align: center;
-    font-size: 1rem;
-    margin-top: -0.5%;
-    margin-right: 30%;
+    margin: 0.75%;
 }
 main{
     min-height: 550px;
@@ -226,7 +229,6 @@ align-items: center;
     height: 26px;
     justify-content: center;
 }
-    
 }
 @media(min-width: 1054px){
 header{
