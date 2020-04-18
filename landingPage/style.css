@@ -4,12 +4,16 @@
 }
 .header-button{
     text-decoration: none;
-    padding: 1%;
+    padding: 3%;
     align-self: center;
     text-align: center;
     color: white;
     border: none; 
-    background-color: rgba(5, 6, 59, 0.836) ;
+    /* background-color: rgba(5, 6, 59, 0.836) ; */
+    background-image: url("../ants-clock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Gotu', sans-serif;
     transition: background-color 0.5s ease-out 50ms; color: 1s ease-out 100ms;
 }
@@ -52,7 +56,7 @@ header{
     margin-top: 50px;
 }
 .header-button:hover{
-    color:  rgba(0, 0, 0, 0.815);
+    color:rgb(241, 239, 86);
     background-color: rgba(245, 245, 245, 0.37);
 }
 .content{
@@ -174,7 +178,7 @@ header{
     font-size: 20px;
 }
 .header-button:hover{
-    color:  rgba(0, 0, 0, 0.815);
+    color: rgb(241, 239, 86);
     background-color: rgba(245, 245, 245, 0.37);
 }
 .content{
@@ -300,7 +304,7 @@ margin-left: 350px;
 font-size: 22px;
 }
 .header-button:hover{
-color:  rgba(0, 0, 0, 0.815);
+color: rgb(241, 239, 86);
 background-color: rgba(245, 245, 245, 0.37);
 }
 
