@@ -257,6 +257,7 @@ header{
     justify-content: flex-end;
     align-items: flex-end;
     margin-bottom: 0.75%;
+    margin-right: 0%;
 }
 .header-banner{
     display: flex;
