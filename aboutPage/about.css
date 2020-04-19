@@ -49,7 +49,7 @@ main{
     font-family: 'Homemade Apple', cursive;
 }
 .footer{
-    background-color: rgba(75, 77, 199, 0.836);
+    background-color: rgba(75, 77, 199);
     color: white;
 }
 @media(max-width: 650px){
@@ -179,7 +179,7 @@ h1{
     display: flex;
     flex-direction: row;
     height: 800px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .dali-portrait{
     border-radius: 100%;
@@ -285,7 +285,6 @@ h1{
     display: flex;
     flex-direction: row;
     height: 600px;
-    margin-top: 5px;
 }
 .dali-portrait{
     margin-top: 60px;

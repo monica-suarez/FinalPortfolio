@@ -120,7 +120,7 @@ iframe{vertical-align: middle;}
   to {opacity: 1}
 }
 .footer{
-    background-color: rgba(75, 77, 199, 0.836);
+    background-color: rgba(75, 77, 199);
     color: white;
 }
 @media(max-width: 650px){
