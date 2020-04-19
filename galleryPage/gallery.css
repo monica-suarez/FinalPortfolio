@@ -156,8 +156,8 @@ header{
 }
 main{
     margin-top: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 .dot{
     display: none;
