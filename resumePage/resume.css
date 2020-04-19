@@ -1,5 +1,5 @@
 body{
-    background-color: #bd291a;
+    background-color: whitesmoke;
     font-family: 'Gotu', sans-serif;
 }
 button{
@@ -44,8 +44,15 @@ header{
     padding: 0.5%;
     margin: 1%;
 }
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 main{
     border: 5px solid #bd291a;
+}
+.content{
+    background-color: #bd291a;
 }
 .btn-col{
     background-color: #bd291a;
