@@ -177,6 +177,9 @@ iframe{
     text-align: center;
     overflow-wrap: break-word;
 }
+span{
+    margin-top: 2px;
+}
 .footer{
     margin-top: 10px;
     display: flex;
