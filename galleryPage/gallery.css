@@ -159,6 +159,9 @@ main{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.dot{
+    display: none;
+}
 
 .cell{
     display: flex;
@@ -176,9 +179,6 @@ iframe{
     font-weight: bolder;
     text-align: center;
     overflow-wrap: break-word;
-}
-span{
-    margin-top: 2px;
 }
 .footer{
     margin-top: 10px;
