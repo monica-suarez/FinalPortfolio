@@ -25,6 +25,36 @@
     color: rgba(18, 19, 73, 0.836);
     transform: scale(1.75);
 }
+#descr{        
+    color: rgb(241, 239, 86);
+    font-family: 'Gotu', sans-serif;
+    animation-name: colors;
+    animation-duration: 30s;
+}
+@keyframes colors{
+    0%{color: rgb(241, 239, 86);}
+    5%{color:  rgb(84, 163, 64);}
+    10%{color:  rgb(19, 39, 126);}
+    15%{color:  rgb(191, 154, 196);}
+    20%{color: rgb(241, 239, 86);}
+    25%{color: rgb(84, 163, 64);}
+    30%{color: rgb(19, 39, 126);}
+    35%{color: rgb(191, 154, 196);}
+    40%{color: rgb(241, 239, 86);}
+    45%{color: rgb(84, 163, 64);}
+    50%{color: rgb(19, 39, 126);}
+    55%{color:  rgb(191, 154, 196);}
+    60%{color: rgb(241, 239, 86);}
+    65%{color: rgb(84, 163, 64);}
+    70%{color: rgb(19, 39, 126);}
+    75%{color:  rgb(191, 154, 196);}
+    80%{color: rgb(241, 239, 86);}
+    85%{color: rgb(84, 163, 64);}
+    90%{color: rgb(19, 39, 126);}
+    95%{color:  rgb(191, 154, 196);}
+    100%{color: rgb(241, 239, 86);}
+
+}
 @media(max-width: 650px){
 .container{
     background-color: rgb(158,7,39);
@@ -84,21 +114,9 @@ aside{
 
 }
 #descr{        
-    color: rgb(241, 239, 86);
-    font-family: 'Gotu', sans-serif;
     font-size: 2.5rem;
     margin-top: 10px;
-    animation-name: colors;
-    animation-duration: 6s;
     text-align: center;
-}
-@keyframes colors{
-    0%{color: rgb(241, 239, 86);}
-    25%{color:  rgb(84, 163, 64);}
-    50%{color:  rgb(19, 39, 126);}
-    75%{color:  rgb(191, 154, 196);}
-    100%{color: rgb(241, 239, 86);}
-
 }
 #my-name{
     margin-top: 75px;
@@ -207,21 +225,9 @@ aside{
 
 }
 #descr{        
-    color: rgb(241, 239, 86);
-    font-family: 'Gotu', sans-serif;
     font-size: 2.5rem;
     margin-top: 40px;
     text-align: center;
-    animation-name: colors;
-    animation-duration: 6s;
-}
-@keyframes colors{
-    0%{color: rgb(241, 239, 86);}
-    25%{color:  rgb(84, 163, 64);}
-    50%{color:  rgb(19, 39, 126);}
-    75%{color:  rgb(191, 154, 196);}
-    100%{color: rgb(241, 239, 86);}
-
 }
 #my-name{
     margin-top: 50px;
@@ -331,21 +337,9 @@ font-size: 32px;
 margin-left: -18%;
 }
 #descr{        
-color: rgb(241, 239, 86);
-font-family: 'Gotu', sans-serif;
 font-size: 3rem;
 margin-top: 85px;
 margin-left: 110px;
-animation-name: colors;
-animation-duration: 6s;
-}
-@keyframes colors{
-0%{color: rgb(241, 239, 86);}
-25%{color:  rgb(84, 163, 64);}
-50%{color:  rgb(19, 39, 126);}
-75%{color:  rgb(191, 154, 196);}
-100%{color: rgb(241, 239, 86);}
-
 }
 #my-name{
 margin-top: 100px;

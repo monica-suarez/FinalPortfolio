@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Gotu&display=swap" rel="stylesheet">
     <script src="gallery.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Work</title>
 </head>
 <body>
@@ -24,12 +25,57 @@
         </div>
      </header>
      <main>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="img1.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
+        <div class="slideshow-container" style="width:100%;">
+            <div class="mySlides fade" style="display: block;">
+                <iframe class="cell" src="https://www.youtube.com/embed/SjWhr9t3Qao" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="text">'Le Chien Andalou' | 1929</div>
               </div>
+            <div class="mySlides fade">
+                <img class="cell" src="persistence-memory.jpg">
+                <div class="text">The Persistence of Memory | 1931</div>
+            </div>
+            <div class="mySlides fade">
+                <img class="cell" src="eggs-plate.jpg">
+                <div class="text">Eggs on the Plate without the Plate | 1932</div>
+            </div>
+            <div class="mySlides fade">
+                <img class="cell" src="retro-bust.jpg">
+                <div class="text">Retrospective Bust of a Woman | 1933</div>
+            </div>
+            <div class="mySlides fade">
+                <img class="cell" src="ghost-of-vermeer.jpg" style>
+                <div class="text">The Ghost of Vermeer of Delft which can be used as a Table | 1934</div>
+            </div>
+            <div class="mySlides fade">
+                <img class="cell" src="burning-giraffe.jpg">
+                <div class="text">Burning Giraffe | 1937</div>
+            </div>
+            <div class="mySlides fade">
+                <img class="cell" src="discovery-america.jpg">
+                <div class="text">The Discovery of America by Christopher Colombus | 1959</div>
+            </div>
+            <div class="mySlides fade">
+                <img class="cell" src="hallucinagenic-toreador.jpg">
+                <div class="text">The Hallucinagenic Toreador | 1970</div>
+            </div>
+            <div class="mySlides fade">
+                <img class="cell" src="mae-west-room.jpg">
+                <div class="text">Mae West Room | 1974</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+          </div>
      </main>
      <footer class="footer">
         <div id="copyright">© 2020 by Salvador Dalí's Ghost. All rights reserved.</div>
