@@ -87,14 +87,6 @@ iframe{vertical-align: middle;}
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-.text {
-  color: gold;
-  font-size: 15px;
-  font-weight: bolder;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
 .dot {
   cursor: pointer;
   height: 5px;
@@ -137,17 +129,26 @@ header{
 }
 main{
     margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .cell{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 5%;
 }
 iframe{
     min-height: 500px;
+}
+.text {
+    height: 60px;
+    color: gold;
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: center;
+    overflow-wrap: break-word;
 }
 .footer{
     margin-top: 10px;
@@ -210,6 +211,14 @@ main{
 iframe{
     min-height: 500px;
 }
+.text {
+    color: gold;
+    font-size: 15px;
+    font-weight: bolder;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
 .footer{
 margin-top: 10px;
 padding-top: 5px;
