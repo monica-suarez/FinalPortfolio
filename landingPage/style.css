@@ -4,7 +4,6 @@
 }
 .header-button{
     text-decoration: none;
-    padding: 5.5%;
     align-self: center;
     text-align: center;
     color: white;
@@ -82,8 +81,9 @@ header{
 }
 
 .header-button{
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 50px;
+    padding: 4%;
 }
 .header-button:hover{
     color:rgb(241, 239, 86);
@@ -191,9 +191,8 @@ header{
     margin-left: 15%;
     margin-right: 50px;
 }
-
 .header-button{
-    font-size: 20px;
+    padding: 6%;
 }
 .header-button:hover{
     color: rgb(241, 239, 86);
