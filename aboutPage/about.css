@@ -154,7 +154,7 @@ header{
 }
 .header-button{
     font-size: 0.75rem;
-    width: 4rem;
+    min-width: 4rem;
     text-align: center;
     margin: 0.75%;
 }
@@ -249,28 +249,26 @@ header{
     height: 275px;
     display: flex;
     flex-direction: column-reverse;
-    margin: 0 auto;
     justify-content: space-around;
+    margin: 0 auto;
 }
 .nav-buttons{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
-    margin-bottom: 0.75%;
+    margin-bottom: 0.5%;
     margin-right: 0%;
-}
-.header-banner{
-    display: flex;
-    flex-direction: column;
 }
 .header-button{
     font-size: 0.85rem;
     min-width: 4rem;
     text-align: center;
 }
-
-
+.header-banner{
+    display: flex;
+    flex-direction: column;
+}
 #about{
     font-size: 2rem;
     margin-left: 80px;
